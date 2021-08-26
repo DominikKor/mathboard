@@ -25,7 +25,11 @@ SECRET_KEY = 'django-insecure-bccl^3&4_!r!0741zc_w$7)p)g(^n81zv8a4f)+ea!1cbl0$ko
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "mathboard-io.herokuapp.com",
+    "127.0.0.1",
+    "localhost",
+]
 
 
 # Application definition
